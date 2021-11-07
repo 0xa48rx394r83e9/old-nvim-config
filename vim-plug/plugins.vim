@@ -21,6 +21,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   Plug 'tpope/vim-fugitive'
 
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }           " fzf itself
+  Plug 'junegunn/fzf.vim'                                       " fuzzy search integration
 
   Plug 'luochen1990/rainbow'                                    " rainbow parenthesis
   Plug 'gregsexton/MatchTag'                                    " highlight matching html tags
