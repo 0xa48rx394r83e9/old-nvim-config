@@ -347,7 +347,6 @@ nmap <leader>gc :Commits<CR>
 nmap <leader>gs :GFiles?<CR>
 nmap <leader>sh :History/<CR>
 
-#git test
 
 
 
