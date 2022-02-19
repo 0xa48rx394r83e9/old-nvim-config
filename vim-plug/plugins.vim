@@ -64,4 +64,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   Plug 'neoclide/coc-eslint'
   Plug 'neoclide/coc-prettier'
+
+  Plug 'cristianoliveira/vim-react-html-snippets'
 call plug#end()
