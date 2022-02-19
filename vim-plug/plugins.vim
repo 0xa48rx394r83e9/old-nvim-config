@@ -55,4 +55,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/vim-easy-align'                                " indent multi text ( easy align : so many feature ), eg: `gaip* ` `v2j<Enter>*:`
   Plug 'nathanaelkane/vim-indent-guides'                        " `,ig` to toggle
   Plug 'tpope/vim-commentary'                                   " for multiline became to comment lines
+
+  Plug 'pangloss/vim-javascript'
+  Plug 'leafgarland/typescript-vim'
+  Plug 'peitalin/vim-jsx-typescript'
+  Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+  Plug 'jparise/vim-graphql'
 call plug#end()
