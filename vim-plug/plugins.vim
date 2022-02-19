@@ -61,4 +61,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
   Plug 'jparise/vim-graphql'
+
+  Plug 'neoclide/coc-eslint'
+  Plug 'neoclide/coc-prettier'
 call plug#end()
