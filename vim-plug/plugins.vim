@@ -68,4 +68,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'neoclide/coc-prettier'
 
   Plug 'cristianoliveira/vim-react-html-snippets'
+
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  Plug 'junegunn/vim-javacomplete2', {'for': 'java'}
+  Plug 'w0rp-ale'
+  Plug 'majutsushi/tagbar'
+
 call plug#end()
