@@ -12,6 +12,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'preservim/nerdcommenter'
   Plug 'mhinz/vim-startify'
 
+  Plug 'christoomey/vim-tmux-navigator'
+
   Plug 'wakatime/vim-wakatime'
 
   Plug 'ryanoasis/vim-devicons'
