@@ -70,7 +70,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'cristianoliveira/vim-react-html-snippets'
 
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-  Plug 'junegunn/vim-javacomplete2', {'for': 'java'}
+  Plug 'junegunn/vim-javacomplete2'
   Plug 'w0rp-ale'
   Plug 'majutsushi/tagbar'
 
