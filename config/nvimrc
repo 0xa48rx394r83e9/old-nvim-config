@@ -361,3 +361,4 @@ let g:ale_linters = {
 
 " Ctrl-b to open Tagbar
 map <C-b> :TagbarToggle<CR>
+
